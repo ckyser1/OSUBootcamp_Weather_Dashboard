@@ -72,7 +72,7 @@ $("#citySearchBtn").on("click", function(event){
     }
     storeCurrentCity();
     storeCityArray();
-    renderCities();
+    generateCities();
     displayWeather();
     displayFiveDayForecast();
 });
